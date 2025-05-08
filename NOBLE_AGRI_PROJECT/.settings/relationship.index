@@ -1,16 +1,36 @@
 [ {
   "baseItem" : {
-    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "id" : "_p5q-8CpCEfC8M6orzFfcHg",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "DemoRoutines",
+    "id" : "_AojqUCpGEfC8M6orzFfcHg",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
   }, {
-    "id" : "GetRandomPhoneNum",
+    "id" : "__sqNoCtUEfCRs-vj7FPIBQ",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
+  }, {
+    "id" : "_Px-18CtWEfCRs-vj7FPIBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Px-18CtWEfCRs-vj7FPIBQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - job_execution_log",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - log_source_file",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]

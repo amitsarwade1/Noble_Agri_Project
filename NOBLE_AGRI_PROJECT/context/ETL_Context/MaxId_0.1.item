@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Ao-hECpGEfC8M6orzFfcHg" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_Ao-hESpGEfC8M6orzFfcHg" comment="" name="maxid" prompt="maxid?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0"/>
+</talendfile:ContextType>
