@@ -37,4 +37,39 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_uFUkMCysEfCzb7T94_d1nQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_AojqUCpGEfC8M6orzFfcHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "__sqNoCtUEfCRs-vj7FPIBQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - cont_global_pre_stage",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - cont_global_stage",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - error_global_stage",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Wm4qMCpDEfC8M6orzFfcHg - job_execution_log",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
