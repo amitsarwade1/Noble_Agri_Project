@@ -1,0 +1,18 @@
+{
+  "itemId" : "_abmqMC_vEfC8Q8mFMP_yIg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_AojqUCpGEfC8M6orzFfcHg",
+    "parameterList" : [ {
+      "id" : "_Ao-hESpGEfC8M6orzFfcHg",
+      "name" : "maxid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_H7qHoC_wEfC8Q8mFMP_yIg",
+    "parameterList" : [ {
+      "id" : "_H8DJMS_wEfC8Q8mFMP_yIg",
+      "name" : "MaxInventoryStatusId"
+    } ]
+  } ]
+}
