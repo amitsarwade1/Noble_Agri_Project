@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="maxid" prompt="maxid?" promptNeeded="false" repositoryContextId="_AojqUCpGEfC8M6orzFfcHg" type="id_Integer" value="0" internalId="_fthOwC_6EfC8Q8mFMP_yIg"/>
-    <contextParameter comment="" name="MaxContractTypeId" prompt="MaxContractTypeId?" promptNeeded="false" repositoryContextId="_54duIC_5EfC8Q8mFMP_yIg" type="id_Integer" value="0" internalId="_fthOwS_6EfC8Q8mFMP_yIg"/>
+    <contextParameter comment="" name="maxid" prompt="maxid?" promptNeeded="false" repositoryContextId="_AojqUCpGEfC8M6orzFfcHg" type="id_Integer" value="0" internalId="_kvE-gDCGEfCJK-wzch2VYA"/>
+    <contextParameter comment="" name="MaxQuantUnitId" prompt="MaxQuantUnitId?" promptNeeded="false" repositoryContextId="_13zPcDCFEfCJK-wzch2VYA" type="id_Integer" value="0" internalId="_kvE-gTCGEfCJK-wzch2VYA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -119,7 +119,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Noble_Agri_Project&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:t6zvvKRCcrCq6ao9GWv8Ba0LovhGIG+ZEkN4cEC9kCW8NA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O5mKdJVNBZGW8gX5mwotPRGxocQdc+hXyHN5FoKUn1rcCQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;job_execution_log&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -151,7 +151,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_ZEwLAC2JEfCEbvb0KcdE_w-tMap_6-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Rsu0kC2JEfCEbvb0KcdE_w-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -220,7 +220,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_ZEwLAC2JEfCEbvb0KcdE_w-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Rsu0kC2JEfCEbvb0KcdE_w-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -282,7 +282,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QstLSxf9JJ3sq0mC+DIFgyD3EQzTTUFhBo0krLbWU0MR1g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:J81rflDsIbVeu3es7ZMwJSLq19tlhTCQylTmRr64n2G2xA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;job_execution_log&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -467,7 +467,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Noble_Agri_Project&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2eIWMJKdYiH4tbtkGGsuKLiPldPfXIjfzFb9IUta3WCn8g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XTqNCZC1RCJqQLcxm63oCQoLlukoPl+e/aar9Gb/A7hxUQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_Wm4qMCpDEfC8M6orzFfcHg - cont_global_stage" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;cont_global_stage&quot;"/>
@@ -633,7 +633,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_ImydYC_yEfC8Q8mFMP_yIg-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_zZgdgDCEEfCJK-wzch2VYA-tMap_4-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -643,7 +643,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="InsertFlow">
-      <column comment="" key="false" length="2147483647" name="contract_status" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2147483647" name="quantity_unit" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -651,7 +651,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="InsertFlow">
-        <mapperTableEntries name="contract_status" expression="row4.contract_status " type="id_String" nullable="true"/>
+        <mapperTableEntries name="quantity_unit" expression="row4.quantity_unit " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row4" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="profit_center" type="id_String" nullable="true"/>
@@ -687,7 +687,7 @@
   <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUniqRow_1" show="false"/>
     <elementParameter field="TABLE" name="UNIQUE_KEY">
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_status" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit" id="0"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="1"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="2"/>
     </elementParameter>
@@ -698,45 +698,27 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tUniqRow_1">
-      <column comment="" key="false" length="2147483647" name="contract_status" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2147483647" name="quantity_unit" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
     <metadata connector="UNIQUE" name="UNIQUE">
-      <column comment="" key="false" length="2147483647" name="contract_status" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2147483647" name="quantity_unit" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
     <metadata connector="DUPLICATE" name="DUPLICATE">
-      <column comment="" key="false" length="2147483647" name="contract_status" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2147483647" name="quantity_unit" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
   </node>
-  <node componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="680">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
-    <elementParameter field="TABLE" name="CRITERIA">
-      <elementValue elementRef="COLNAME" value="contract_status" id="0"/>
-      <elementValue elementRef="SORT" value="alpha" id="1"/>
-      <elementValue elementRef="ORDER" value="asc" id="2"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
-    <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;D:/Projects/Noble_Agri_Project/temp&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CREATEDIR" value="true" show="false"/>
-    <elementParameter field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" value="1000000" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tSortRow_1">
-      <column comment="" key="false" length="2147483647" name="contract_status" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-  </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="920" posY="680">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_5" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_GRHF0C_6EfC8Q8mFMP_yIg-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_zZgdgDCEEfCJK-wzch2VYA-tMap_5-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -745,36 +727,36 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="Contract_Type_Dim">
-      <column comment="" key="true" length="10" name="contract_type_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+    <metadata connector="FLOW" name="Quantity_Unit_Dim">
+      <column comment="" key="true" length="10" name="quantity_unit_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="contract_type" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="quantity_unit" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Contract_Type_Dim" expressionFilter="Relational.ISNULL(row7.contract_type )" activateExpressionFilter="true">
-        <mapperTableEntries name="contract_type_id" expression="Numeric.sequence(&quot;s1&quot;,context.MaxContractTypeId,1)" type="id_Integer"/>
-        <mapperTableEntries name="contract_type" expression="row6.contract_status " type="id_String"/>
+      <outputTables sizeState="INTERMEDIATE" name="Quantity_Unit_Dim" expressionFilter="Relational.ISNULL(row6.quantity_unit)  " activateExpressionFilter="true">
+        <mapperTableEntries name="quantity_unit_id" expression="Numeric.sequence(&quot;s1&quot;,context.MaxQuantUnitId,1)" type="id_Integer"/>
+        <mapperTableEntries name="quantity_unit" expression="row5.quantity_unit " type="id_String"/>
         <mapperTableEntries name="etl_load_date" expression="TalendDate.getCurrentDate()" type="id_Date" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="contract_status" type="id_String" nullable="true"/>
+      <inputTables sizeState="INTERMEDIATE" name="row5" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="quantity_unit" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row7" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="contract_type_id" type="id_Integer"/>
-        <mapperTableEntries name="contract_type" type="id_String"/>
+      <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="quantity_unit_id" type="id_Integer"/>
+        <mapperTableEntries name="quantity_unit" expression="row5.quantity_unit " type="id_String" operator="="/>
         <mapperTableEntries name="etl_load_date" type="id_Date" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="560">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_4" show="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlInput" show="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
@@ -797,15 +779,15 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Noble_Agri_Project&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AXeBLDxbKLidq9SKHUdHvRkRqaRO9Nr++6YHTfDnmvHkaA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rkzshmDjtsA3WJySHZwAI7QByCKemQaVi2tCsw1Qigvhig=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_Wm4qMCpDEfC8M6orzFfcHg - contract_type_dim" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;contract_type_dim&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_Wm4qMCpDEfC8M6orzFfcHg - quantity_unit_dim" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;quantity_unit_dim&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;contract_type_dim\&quot;.\&quot;contract_type_id\&quot;, &#xA;  \&quot;contract_type_dim\&quot;.\&quot;contract_type\&quot;, &#xA;  \&quot;contract_type_dim\&quot;.\&quot;etl_load_date\&quot;&#xA; FROM \&quot;contract_type_dim\&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;quantity_unit_dim\&quot;.\&quot;quantity_unit_id\&quot;, &#xA;  \&quot;quantity_unit_dim\&quot;.\&quot;quantity_unit\&quot;, &#xA;  \&quot;quantity_unit_dim\&quot;.\&quot;etl_load_date\&quot;&#xA; FROM \&quot;quantity_unit_dim\&quot;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -817,20 +799,20 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type_id" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit_id" id="0"/>
       <elementValue elementRef="TRIM" value="false" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit" id="2"/>
       <elementValue elementRef="TRIM" value="false" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="etl_load_date" id="4"/>
       <elementValue elementRef="TRIM" value="false" id="5"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="contract_type_dim" name="tDBInput_4">
-      <column comment="" key="true" length="10" name="contract_type_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+    <metadata connector="FLOW" label="quantity_unit_dim" name="tDBInput_4">
+      <column comment="" key="true" length="10" name="quantity_unit_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="contract_type" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="quantity_unit" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
@@ -838,7 +820,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="680">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlOutput" show="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
@@ -860,12 +842,12 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wQsF8cAf4c76BzMRbE7XcRRVOkzVrzw/ETPRgRtZtcRdUw=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;contract_type_dim&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zLth+lyuQatNo82RUEpjM9G+h3pWO2I214Anp+NeGI3IQg=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;quantity_unit_dim&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_Wm4qMCpDEfC8M6orzFfcHg - contract_type_dim" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_Wm4qMCpDEfC8M6orzFfcHg - quantity_unit_dim" show="false"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
@@ -884,12 +866,12 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type_id" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit_id" id="0"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
       <elementValue elementRef="UPDATABLE" value="true" id="3"/>
       <elementValue elementRef="INSERTABLE" value="true" id="4"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit" id="5"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
       <elementValue elementRef="UPDATABLE" value="true" id="8"/>
@@ -907,22 +889,22 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="contract_type_dim" name="tDBOutput_2">
-      <column comment="" key="true" length="10" name="contract_type_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+    <metadata connector="FLOW" label="quantity_unit_dim" name="tDBOutput_2">
+      <column comment="" key="true" length="10" name="quantity_unit_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="contract_type" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="quantity_unit" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
-    <metadata connector="REJECT" label="contract_type_dim" name="REJECT">
-      <column comment="" key="true" length="10" name="contract_type_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+    <metadata connector="REJECT" label="quantity_unit_dim" name="REJECT">
+      <column comment="" key="true" length="10" name="quantity_unit_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="contract_type" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="quantity_unit" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
@@ -932,7 +914,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1320" posY="680">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_4" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -946,9 +928,9 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type_id" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit_id" id="0"/>
       <elementValue elementRef="LENGTH" value="10" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="contract_type" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity_unit" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="etl_load_date" id="4"/>
       <elementValue elementRef="LENGTH" value="10" id="5"/>
@@ -957,13 +939,13 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_4">
-      <column comment="" key="true" length="10" name="contract_type_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+      <column comment="" key="true" length="10" name="quantity_unit_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="contract_type" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="quantity_unit" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="etl_load_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -988,7 +970,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_ZEwLAC2JEfCEbvb0KcdE_w-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Rsu0kC2JEfCEbvb0KcdE_w-tMap_6-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -1034,7 +1016,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jpIR1mcyB4I8L0J8UUwAuaOXnqXXOORvxW9svjnfcpgJrQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lzHWm1xRDRUWDvzos5PKHG1N3f+3YL5gjRt9eWjHUuLM7g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;job_execution_log&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -1167,7 +1149,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_ZEwLAC2JEfCEbvb0KcdE_w-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Rsu0kC2JEfCEbvb0KcdE_w-tMap_7-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -1228,7 +1210,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:R/w42ay4XFsPz6u9cJUyeikjhJuSjGq3Bv3Urh0Mn2BNig=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yVDp6VLkOHpk0iTe3w6cPs82it9VdfJ1rC/1szokAnDX8Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;job_execution_log&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -1332,13 +1314,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Noble_Agri_Project&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Kj0NG4SngxeNbePuUjeuOlIX2EAlnoa0uCpHebloqEbZCg=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;contract_type_dim&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MWt0B6JnrQc6+IjYlT/13/5Fs7j9WfaqZ4G6WvP0Hs2hTw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;quantity_unit_dim&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COALESCE(MAX(contract_type_id), 0) AS MaxContractTypeId&#xD;&#xA; FROM contract_type_dim&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT COALESCE(MAX(quantity_unit_id), 0) AS MaxQuantUnitId&#xD;&#xA; FROM quantity_unit_dim&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -1350,13 +1332,13 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="maxcontracttypeid" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="maxquantunitid" id="0"/>
       <elementValue elementRef="TRIM" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_2">
-      <column comment="" defaultValue="" key="false" length="10" name="maxcontracttypeid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="maxquantunitid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="400">
@@ -1364,7 +1346,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_GRHF0C_6EfC8Q8mFMP_yIg-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_zZgdgDCEEfCJK-wzch2VYA-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -1373,19 +1355,19 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="MaxContractStatusId">
-      <column comment="" defaultValue="" key="false" length="-1" name="MaxContractTypeId" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="FLOW" name="MAxDateId">
+      <column comment="" defaultValue="" key="false" length="-1" name="max_quant_unit_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="MaxContractTypeId" expression="context.MaxContractTypeId =  row3.maxcontracttypeid  + 1" type="id_Integer"/>
+        <mapperTableEntries name="MaxQuantUnitId" expression="context.MaxQuantUnitId =  row3.maxquantunitid   + 1" type="id_Integer"/>
       </varTables>
-      <outputTables sizeState="INTERMEDIATE" name="MaxContractStatusId">
-        <mapperTableEntries name="MaxContractTypeId" expression="Var.MaxContractTypeId " type="id_Integer"/>
+      <outputTables sizeState="INTERMEDIATE" name="MAxDateId">
+        <mapperTableEntries name="max_quant_unit_id" expression="Var.MaxQuantUnitId " type="id_Integer"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="maxcontracttypeid" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="maxquantunitid" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -1403,14 +1385,14 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MaxContractTypeId" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="max_quant_unit_id" id="0"/>
       <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_3">
-      <column comment="" defaultValue="" key="false" length="-1" name="MaxContractTypeId" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="max_quant_unit_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBInput_1">
@@ -1450,33 +1432,24 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="InsertFlow" lineStyle="0" metaname="InsertFlow" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tUniqRow_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="contract_status" id="0"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
-    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="InsertFlow" show="false"/>
   </connection>
-  <connection connectorName="UNIQUE" label="row5" lineStyle="0" metaname="tUniqRow_1" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tSortRow_1">
+  <connection connectorName="UNIQUE" label="row5" lineStyle="0" metaname="tUniqRow_1" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tMap_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tMap_5">
+  <connection connectorName="FLOW" label="Quantity_Unit_Dim" lineStyle="0" metaname="Quantity_Unit_Dim" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tDBOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Quantity_Unit_Dim" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="8" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="Contract_Type_Dim" lineStyle="0" metaname="Contract_Type_Dim" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tDBOutput_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Contract_Type_Dim" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_5">
+  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tDBOutput_2" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_2" target="tLogRow_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tDBOutput_2" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_2" target="tLogRow_4">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row12" lineStyle="0" metaname="tRowGenerator_2" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_2" target="tMap_6">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1505,9 +1478,9 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDBInput_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="MaxContractStatusId" lineStyle="0" metaname="MaxContractStatusId" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tLogRow_3">
+  <connection connectorName="FLOW" label="MAxDateId" lineStyle="0" metaname="MAxDateId" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tLogRow_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="MaxContractStatusId" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="MAxDateId" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
