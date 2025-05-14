@@ -405,10 +405,10 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Calender_Dim" expressionFilter="Relational.ISNULL(row6.date_value)" activateExpressionFilter="true">
-        <mapperTableEntries name="date_id" expression="Numeric.sequence(&quot;s1&quot;,context.MAxDateId,1)" type="id_Integer"/>
+        <mapperTableEntries name="date_id" expression="Numeric.sequence(&quot;calenderSK&quot;,context.MAxDateId,1)" type="id_Integer"/>
         <mapperTableEntries name="date_value" expression="row5.issue_date " type="id_Date"/>
         <mapperTableEntries name="year" expression="Integer.parseInt(TalendDate.formatDateInUTC(&quot;yyyy&quot;, row5.issue_date ))" type="id_Integer"/>
         <mapperTableEntries name="month" expression="Integer.parseInt(TalendDate.formatDateInUTC(&quot;MM&quot;, row5.issue_date ))" type="id_Integer"/>
