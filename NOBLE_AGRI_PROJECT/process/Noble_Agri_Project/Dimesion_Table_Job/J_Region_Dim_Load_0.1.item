@@ -405,10 +405,10 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Regin_Name_Dim" expressionFilter="Relational.ISNULL(row7.region_name)" activateExpressionFilter="true">
-        <mapperTableEntries name="region_id" expression="Numeric.sequence(&quot;s1&quot;,context.MaxRegionId,1)" type="id_Integer"/>
+        <mapperTableEntries name="region_id" expression="Numeric.sequence(&quot;regionSK&quot;,context.MaxRegionId,1)" type="id_Integer"/>
         <mapperTableEntries name="region_name" expression="row6.Region_Name " type="id_String"/>
         <mapperTableEntries name="etl_load_date" expression="TalendDate.getCurrentDate()" type="id_Date"/>
       </outputTables>

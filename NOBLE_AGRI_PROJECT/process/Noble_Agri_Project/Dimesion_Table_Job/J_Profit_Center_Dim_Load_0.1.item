@@ -406,12 +406,10 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="maxPCId" expression="Numeric.sequence(&quot;s1&quot;,context.maxPCId,1)" type="id_Integer"/>
-      </varTables>
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="InsertFlowProductDim" expressionFilter="Relational.ISNULL(row6.profit_center_name)" activateExpressionFilter="true">
-        <mapperTableEntries name="pc_id" expression="Var.maxPCId " type="id_Integer"/>
+        <mapperTableEntries name="pc_id" expression="Numeric.sequence(&quot;pcSK&quot;,context.maxPCId,1)" type="id_Integer"/>
         <mapperTableEntries name="profit_center_name" expression="row5.profit_center " type="id_String"/>
         <mapperTableEntries name="etl_load_date" expression="TalendDate.getCurrentDate()" type="id_Date"/>
       </outputTables>
